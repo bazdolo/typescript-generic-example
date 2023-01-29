@@ -47,7 +47,7 @@ const result = ranker(chars, ({ atk }) => atk);
 console.log(result);
 
 const one = new Promise<string>((resolve, reject) => {
-  resolve(45);
+  resolve('45');
 });
 
 one.then((a) => a);
